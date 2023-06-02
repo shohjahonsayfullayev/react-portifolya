@@ -1,0 +1,59 @@
+header {
+  background: linear-gradient(101.56deg, #2c2c2c 1.56%, #1c1c1c 95.55%);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  margin-left: 145px;
+
+  > a {
+    font-family: "Arodora Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    /* text */
+
+    color: #e4e4e4;
+  }
+
+  > a:hover {
+    transition: all 0.6s;
+    border-bottom: 1px solid orange;
+  }
+}
+
+.header_ntchild {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 959px) {
+  .header__item{
+    margin-left: 105px;
+  }
+}
+
+@media only screen and (max-width: 933px) {
+  .header__item{
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .header__item{
+    margin-left: 79px;
+  }
+}

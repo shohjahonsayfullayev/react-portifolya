@@ -1,0 +1,51 @@
+.hello__wrapper {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  padding-top: 80px;
+}
+
+.hello__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 28px;
+
+  > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    width: 270px;
+    height: 270px;
+    background: #2a2a2a;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    text-align: center;
+    padding-top: 50px;
+    > a {
+      > p {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-family: "Arodora Pro";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height *
+
+        /* text */
+
+        color: #e4e4e4;
+      }
+    }
+
+  }
+
+  >li:hover{
+    box-shadow: 0px 4px 6px rgba(196, 155, 155, 0.47);
+  }
+}
+
+
+
+
